@@ -42,8 +42,11 @@ basicNN <- ggplot(data,aes(y=SIMS,x=ARM))
 basicNN + geom_point() + ggtitle("SIMS vs ARM") + theme(plot.title = element_text(hjust = 0.5, size = 20))
 ```
 This data shows the simulation expectation of arm strength in the workers. This tells us that it is expected for most of the population to have a strength between 50 and 100 for arm strength. 
-### Numerical results
 
+### Numerical results
+```{r}
+cor(SIMS~ARM,data=data)
+```
 
 ### Inferential  (Build model.1)
 
