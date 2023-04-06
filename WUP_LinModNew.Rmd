@@ -107,8 +107,9 @@ The scatter plot above gives us the line of best fit for the data which allows f
 ## Model 3 SIM~ARM+GRIP
 
 ### Numerical results (cor)
-
-`
+```{r}
+cor(SIMS~ARM+GRIP, data=data)
+```
   
 ### Inferential  (Build 2-dimentional model.3)
 
