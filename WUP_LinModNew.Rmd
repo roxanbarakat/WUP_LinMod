@@ -117,6 +117,7 @@ cor(SIMS~ARM+GRIP, data=data)
 model.3 <- lm(SIMS~ARM+GRIP, data=data)
 summary.lm(model.3)
 ```
+This data gives an equation of SIMS= 0.037311 x ARM + 0.024470 x GRIP -5.4338771 for what would be the plane of best fit. 
 
 #### predict model.3 at target point
   
