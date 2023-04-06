@@ -72,7 +72,12 @@ The data  above shows us the line of best fit from the data points collected fro
 ## Model 2 SIM~GRIP
 
 ### Now add in scatterplot
-
+```{r}
+basicGRIP <- ggplot(data,aes(y=SIMS,x=GRIP))
+```
+```{r}
+basicGRIP + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_text(hjust = 0.5, size = 20))
+``` 
 
 ### Numerical results 
 
