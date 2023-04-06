@@ -68,7 +68,7 @@ The table shows that our predicted target plot is 0.7063836 but 95% of the time,
 ```{r}
 basicNN + geom_point() + ggtitle("SIMS vs ARM") + theme(plot.title = element_text(hjust = 0.5, size = 20)) + geom_smooth(method = lm)
 ``` 
-
+The data  above shows us the line of best fit from the data points collected from SIMS vs ARM. This shows which data points are the closest to the expected results. 
 ## Model 2 SIM~GRIP
 
 ### Now add in scatterplot
