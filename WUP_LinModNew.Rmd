@@ -86,7 +86,11 @@ cor(SIMS~GRIP, data=data)
 For SIMS vs GRIP we have a value of 0.6398458 but for the SIMS vs ARM we got a 0.6860073. The value of SIMS vs ARMS is a higher value than that of SIMS vs GRIP making the correspondence slightly smaller in the correlation of data tables. This shows us that the SIMS vs ARM model is more accurate than the SIMS vs GRIP model. 
 
 ### Inferential  (Build model.2)
-  
+```{r}
+model.2 <- lm(SIMS~GRIP, data=data)
+summary.lm(model.2)
+```
+
 
 #### predict model.2 at target point
 
