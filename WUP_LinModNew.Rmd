@@ -90,7 +90,7 @@ For SIMS vs GRIP we have a value of 0.6398458 but for the SIMS vs ARM we got a 0
 model.2 <- lm(SIMS~GRIP, data=data)
 summary.lm(model.2)
 ```
-
+The data above gives us an equation of SIMS= 0.045463x GRIP -4.809675 as the equation for our line of best fit. With the positive coefficient we have a positive slope for the line making it start in the bottom left corner and travel towards the top right hand corner. 
 
 #### predict model.2 at target point
 
