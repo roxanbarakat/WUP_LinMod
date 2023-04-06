@@ -123,6 +123,7 @@ This data gives an equation of SIMS= 0.037311 x ARM + 0.024470 x GRIP -5.4338771
 ```{r}
 predict(model.3, tgtpoint, interval = c("prediction"))
 ```
+The table above gives us a value of 0.149647 as the target point for SIMS vs ARM+GRP. With a 95% interval the value will be between -2.132373 and 2.431668.
 
 ## Comparing nested models ANOVA Test
 
