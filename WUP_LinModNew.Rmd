@@ -62,7 +62,7 @@ tgtpoint=data.frame(ARM=88, GRIP=94)
 
 predict(model.1, tgtpoint, interval = c("prediction"))
 ```
-
+The table shows that our predicted target plot is 0.7063836 but 95% of the time, we are going to have a value between -1.726209 and 3.13897.
 
 #### scatterplot with model fit
   
