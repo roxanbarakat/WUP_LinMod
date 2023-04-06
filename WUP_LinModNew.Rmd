@@ -99,7 +99,9 @@ predict(model.2, tgtpoint, interval = c("prediction"))
 The table shows that our best fit value for this scenario is 0.536154, but 95% of the time the value will be between -3.107961 and 2.035652.
 
 #### now add the model fit to our plot for model.2
-  
+```{r}
+basicGRIP + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_text(hjust = 0.5, size = 20)) + geom_smooth(method = lm)
+``` 
 
 
 ## Model 3 SIM~ARM+GRIP
