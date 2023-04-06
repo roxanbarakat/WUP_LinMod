@@ -54,7 +54,7 @@ The larger the number we get, the larger the correlation between the two is. Fro
 model.1 <- lm(SIMS~ARM,data=data)
 summary.lm(model.1)
 ```
-
+The equation for the line of this scenario is SIMS = 0.054563xARM-4.095160. Since we have a positive coefficient, the line increases making it move from the lower left corner to the upper right corner. 
 
 #### Predict at target point
 
