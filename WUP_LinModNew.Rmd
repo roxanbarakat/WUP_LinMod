@@ -80,6 +80,9 @@ basicGRIP + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_
 ``` 
 
 ### Numerical results 
+```{r}
+cor(SIMS~GRIP, data=data)
+```
 
 
 ### Inferential  (Build model.2)
