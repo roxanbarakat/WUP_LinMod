@@ -47,6 +47,7 @@ This data shows the simulation expectation of arm strength in the workers. This 
 ```{r}
 cor(SIMS~ARM,data=data)
 ```
+The larger the number we get, the larger the correlation between the two is. From this data, we can see that there is a small correspondence between the two since the number is approaching 1. 
 
 ### Inferential  (Build model.1)
 
