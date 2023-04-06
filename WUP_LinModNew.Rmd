@@ -113,6 +113,10 @@ cor(SIMS~ARM+GRIP, data=data)
  The value above tells us that we have a 0.7326545 correlation between SIMS vs ARM + GRIP. This gives us a higher value from the SIMS vs ARM and SIMS vs GRIP. It shows that the most accurate model would be when looking at both the ARM and GRIP data together rather than comparing them individually against SIMS. 
  
 ### Inferential  (Build 2-dimentional model.3)
+```{r}
+model.3 <- lm(SIMS~ARM+GRIP, data=data)
+summary.lm(model.3)
+```
 
 #### predict model.3 at target point
   
@@ -120,6 +124,8 @@ cor(SIMS~ARM+GRIP, data=data)
 ## Comparing nested models ANOVA Test
 
 ### Model.1 vs Model.3
+
+
 ### Model.2 vs Model.3
 
 ## Informally compare Model.1 with model.2
