@@ -127,8 +127,11 @@ The table above gives us a value of 0.149647 as the target point for SIMS vs ARM
 
 ## Comparing nested models ANOVA Test
 
-### Model.1 vs Model.3
 
+### Model.1 vs Model.3
+```{r}
+anova(model.1,model.3)
+```
 
 ### Model.2 vs Model.3
 
