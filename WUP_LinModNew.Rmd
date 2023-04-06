@@ -102,7 +102,7 @@ The table shows that our best fit value for this scenario is 0.536154, but 95% o
 ```{r}
 basicGRIP + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_text(hjust = 0.5, size = 20)) + geom_smooth(method = lm)
 ``` 
-
+The scatter plot above gives us the line of best fit for the data which allows for us to see which data points are the most accurate in SIMS vs GRIP. 
 
 ## Model 3 SIM~ARM+GRIP
 
