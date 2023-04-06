@@ -50,6 +50,11 @@ cor(SIMS~ARM,data=data)
 The larger the number we get, the larger the correlation between the two is. From this data, we can see that there is a small correspondence between the two since the number is approaching 1. 
 
 ### Inferential  (Build model.1)
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
+
 
 #### Predict at target point
 
