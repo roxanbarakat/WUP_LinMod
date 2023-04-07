@@ -138,7 +138,7 @@ From the data  above, we can see that model.3 was more accurate than model.1. Th
 ```{r}
 anova(model.2,model.3)
 ```
-
+From the data table, we are able to see that in this case model.3 was more accurate than model.2. If there were to be no differences between the two models, we would have 0.000000001495% chance of getting these exact results. The difference in degrees of freedom is 1 since model.2 had 145 and model.3 had 144. The residual sum of squares for each model is 243.07 for model.2 and 188.43 for model.3. This gives us a difference of 54.639 errors making the model.3 more accurate than the model.2.
 
 ## Informally compare Model.1 with model.2
 
