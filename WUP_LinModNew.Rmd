@@ -78,7 +78,7 @@ basicGRIP <- ggplot(data,aes(y=SIMS,x=GRIP))
 ```{r}
 basicGRIP + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_text(hjust = 0.5, size = 20))
 ``` 
-
+This data shows us the simulation expectation of grip strength in workers. This tells us that it is expected for most of the population to have strength between about 80 to 125. 
 ### Numerical results 
 ```{r}
 cor(SIMS~GRIP, data=data)
@@ -147,3 +147,4 @@ anova(model.1,model.2)
 From this data model.1 has a residual sum of squares of 217.88 and model.2 has 243.07. This gives us a difference of -25.189 which shows us that the model.1 is a more accurate model when comparing SIMS to ARM and GRIP individually.
 
 #Conclusion
+In conclusion, model.3 was more accurate than model.2 and model.3 was more accurate than model.1. Model.1 is a more accurate model when comparing SIMS to ARM and GRIP individually. The SIMS vs ARM model is more accurate than the SIMS vs GRIP model. 
